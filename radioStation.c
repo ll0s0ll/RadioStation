@@ -224,7 +224,7 @@ int main(int argc, char **argv)
   while (ret == 0) {
 
     // ジングルを再生。付属のジングルは、16bit 8000Hz MONO形式。
-    ret = playWav(path_pifm, radio_freq, "~/pifm/jingle.wav", 8000);
+    ret = playWav(path_pifm, radio_freq, "jingle.wav", 8000);
     if (ret != 0) { break; }
 
     // ファイルの終端まで文字を読み取り表示する
